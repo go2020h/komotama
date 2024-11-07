@@ -142,17 +142,15 @@ function MainComponent() {
                     <i className="fas fa-check text-[#60a5fa] mt-1"></i>
                     <div className="ml-3">
                       <span className="font-bold block">サムネイルワードの精度向上</span>
-                      <span className="text-sm text-white/80 block mt-1">
-                        ・動画の結末を端的にインパクトをもって訴求
-                      </span>
-                      <span className="text-sm text-white/80 block">・視聴者ニーズを刺激するワードで再生数上昇</span>
+                      <span className="text-sm text-white/80 block mt-1">動画の結末を端的にインパクトをもって訴求</span>
+                      <span className="text-sm text-white/80 block">視聴者ニーズを刺激するワードで再生数上昇</span>
                     </div>
                   </li>
                   <li className="flex items-start bg-white/5 p-4 rounded-lg">
                     <i className="fas fa-check text-[#60a5fa] mt-1"></i>
                     <div className="ml-3">
                       <span className="font-bold block">投稿頻度の担保</span>
-                      <span className="text-sm text-white/80 block mt-1">・外注体制のサポート体制構築</span>
+                      <span className="text-sm text-white/80 block mt-1">外注体制のサポート体制構築</span>
                     </div>
                   </li>
                   <li className="flex items-start bg-white/5 p-4 rounded-lg">
