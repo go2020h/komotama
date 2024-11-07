@@ -265,14 +265,14 @@ function MainComponent() {
         </div>
       </section>
 
-      <section className="text-center mb-10 mt-10 px-12 md:px-24 lg:px-36">
+      <section className="text-center mt-10 mb-10 px-12 md:px-24 lg:px-36">
         <h2 className="text-lg md:text-xl mb-6 font-bold">独立を目指すコンサルタントの方へ</h2>
         <h3 className="text-2xl md:text-3xl mb-8">
           <span className="text-[#2563eb] font-bold">こんなお悩みありませんか？</span>
         </h3>
-        <div className="bg-[url('/04.png')] bg-cover bg-center p-2 sm:p-4 md:p-8 rounded-lg">
-          <div className="p-2 sm:p-4 md:p-6 rounded-lg">
-            <ul className="text-left w-full md:w-[80%] lg:w-[60%] mx-auto space-y-3">
+        <div className="bg-none md:bg-[url('/04.png')] bg-contain bg-no-repeat bg-center min-h-0 sm:min-h-[300px] md:min-h-[350px] lg:min-h-[400px]  rounded-lg flex items-center">
+          <div className="rounded-lg w-full">
+            <ul className="text-left w-full md:w-[60%] lg:w-[45%] mx-auto space-y-3">
               <li className="flex items-start sm:items-center mb-2 sm:mb-4 text-sm sm:text-base md:text-lg p-2 sm:p-3 rounded-md shadow bg-blue-50 font-bold">
                 <i className="fas fa-check text-[#2563eb] mr-2 sm:mr-3 mt-1 sm:mt-0"></i>
                 <span className="leading-tight sm:leading-normal">
