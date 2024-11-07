@@ -9,6 +9,18 @@ const nextConfig = {
   },
   env: {
     DISCORD_URL: 'https://discord.gg/yZ8ZuGXJKu'
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/youtube',
+        destination: 'https://komotama-y.vercel.app/youtube'
+      },
+      {
+        source: '/youtube/:path*',
+        destination: 'https://komotama-y.vercel.app/youtube/:path*'
+      }
+    ]
   }
 }
 
